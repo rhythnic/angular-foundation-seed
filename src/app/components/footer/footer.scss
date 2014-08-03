@@ -1,0 +1,25 @@
+@import "styles/base";
+
+.footer-clear {
+  clear:both;
+  height: 30px;
+}
+
+#footer {
+  position: fixed;
+  bottom: -0px;
+  width: 100%;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  letter-spacing: .1em;
+  
+  a {
+    color: #fff;
+  }
+  
+  svg {
+    fill: #fff;
+    margin-right: .3em;
+  }
+}

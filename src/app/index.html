@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="angularFoundationSeed">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Angular Foundation Seed</title>
+    <!-- inject:vendor:css -->
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/css/styles/normalize.css">
+    <link rel="stylesheet" href="/css/styles/foundation.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/frontpage/frontpage.css">
+    <link rel="stylesheet" href="/css/components/header/header.css">
+    <link rel="stylesheet" href="/css/components/footer/footer.css">
+    <!-- endinject -->
+  </head>
+  <body>
+    
+    <div ng-include="'components/header/header.html'"></div>
+    <div ui-view></div>
+    <div ng-include="'components/footer/footer.html'"></div>
+    
+    <!-- CDN -->
+    
+    <!-- inject:vendor:js -->
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/angular-foundation/mm-foundation-tpls.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="/angular-foundation-seed-templates.js"></script>
+    <script src="/app.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
