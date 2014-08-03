@@ -1,14 +1,15 @@
 angular-foundation-seed
 ============
 
-Ths is seed repository for Angular & Foundation 5 apps
+This is seed repository for Angular & Foundation 5 apps.
+The structure and much of the code comes from slush-angular.
+This seed uses angular-ui-router instead of angular-route.
 
 ## About
 
-This seed is setup for customizing Foundation through sass.
+Customize Foundation through sass.
 Mostly, you'll set variables in the src/app/styles/foundation/_settings.scss file.
 For global scss variables, put them in styles/_base.scss, and import that file into your template scss files.
-
 
 Instead of using Foundation's javascript files, this seed relies on Angular Foundation from Mad Mimi.
 For instructions on using Foundation components with Angular Foundation, please see:
